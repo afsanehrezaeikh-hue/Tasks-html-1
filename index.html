@@ -6,29 +6,43 @@
     <title>index.html</title>
 </head>
 <body>
+
+    <div id="my-home">
     <h1>صفحه شخصی من</h1>
     <nav>
      <a href="">خانه</a>|
-     <a href="">درباره من</a>|
-     <a href="">مهارت ها</a>|
-     <a href="">آهنگ مورد علاقه من</a>|
-     <a href="">تماس با ما</a>
+     <a href="#about-me">درباره من</a>|
+     <a href="#my-skills">مهارت ها</a>|
+     <a href="#my-music">آهنگ مورد علاقه من</a>|
+     <a href="#contant-with-us">تماس با ما</a>
      <hr></hr>
     </nav>
+    </div>
+
+<div id="about-me">
 <h2>درباره من</h2>
 <p>سلام من افسانه رضایی هستم،دانشجوی طراحی وب و به ساختن صفحه های وب و یادگیری HTML خیلی علاقه دارم.</p>
+</div>
+
+
 <img src="./assets/images/pexels-katie-burandt-1212693 (1).jpg" width="350" height="350" alt="butterfly">
-<h2> مهارت های من</h2>
-<ul>
+
+<div id="my-skills">
+ <h2> مهارت های من</h2>
+ <ul>
     <li>HTML</li>
     <li>ورد و اکسل</li>
     <li>عکاسی</li>
     <li>زبان انگلیسی</li>
-</ul>
+ </ul>
+</div>
+  <div id="my-music">
      <h2>ویدیو و آهنگ مورد علاقه من</h2>
      <video width="360" height="360" controls autoplay muted ><source src="./assets/video/91722d2450cc11397c814d787669368b15300947-144p.mp4"></video>
      <h5>آهنک:</h5>
      <audio controls muted autoplay><source src="./assets/audio/Siavash Ghomayshi - Parvaneh - 128.mp3" type="audio/mp4"></audio>
+  </div>
+
 <form action="">
     <h2>تماس با ما</h2>
     نام:  <input type="text">
@@ -54,6 +68,8 @@
     </select>
     <br>
     <br>
+
+    <div>
     علاقه مندی ها:
     <input type="checkbox" id="coding">
     <label for="coding">برنامه نویسی</label>
@@ -61,6 +77,8 @@
     <label for="art">نقاشی</label>
     <input type="checkbox" id="cooking">
     <label for="cooking">آشپزی</label>
+   </div>
+
     <br>
     <br>
     پیام:
@@ -70,5 +88,15 @@
     <input type="submit" value="ارسال پیام">
    
 </form>
+<div id="contant-with-us">
+Butterflies are winged insects from the lepidopteran superfamily Papilionoidea, 
+characterised by large, often brightly coloured wings that often fold together when at rest,
+and a conspicuous, fluttering flight. The oldest butterfly fossils have been dated to the Paleocene,
+about 56 million years ago, though molecular evidence suggests that they likely originated in the Cretaceous.[1]
+As holometabolous insects, butterflies undergo complete metamorphosis, meaning that their life cycle comprises four stages.
+[2] Winged adults lay eggs on plant foliage on which their larvae, known as caterpillars, will feed. The caterpillars grow, 
+sometimes very rapidly, and when fully developed, pupate in a chrysalis. When metamorphosis is complete, the pupal skin splits,
+the adult insect climbs out, expands its wings to dry, and flies off.
+</div>
 </body>
 </html>
